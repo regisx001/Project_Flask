@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="home-container">
+    {% if authenticated %}
+        <h1>Welcome back, {{ user.name or user.username }}!</h1>
+        <p>You are logged in as {{ user.email }}</p>
+        <div class="auth-actions">
+            <a href="{{ url_for('auth.profile') }}" class="btn btn-dashboard">Go to Profile</a>
+            <a href="{{ url_for('auth.logout') }}" class="btn btn-logout">Logout</a>
+        </div>
+    {% else %}
+        <h1>Welcome to Our Website</h1>
+        <p>Please register or login to access your dashboard</p>
+        <div class="auth-actions">
+            <a href="{{ url_for('auth.login') }}" class="btn btn-login">Login</a>
+            <a href="{{ url_for('auth.register') }}" class="btn btn-register">Register</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
