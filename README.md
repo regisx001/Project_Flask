@@ -16,13 +16,16 @@ Welcome to the Project_Flask repository! This project utilizes Flask, a lightwei
 Project_Flask is a web application project written in Python using the Flask framework. The aim of this project is to provide a simple and efficient web application structure that can be extended for various purposes.
 
 ## Preview
-![Screenshot from 2025-03-28 20-29-28](https://github.com/user-attachments/assets/e334f0f9-8a5c-4698-b7ea-3dcf348ecc11)
+![Screenshot from 2025-03-28 23-13-57](https://github.com/user-attachments/assets/8dfff4ee-aa40-4b1e-ae00-0019285a6340)
+
 ![Screenshot from 2025-03-28 20-29-34](https://github.com/user-attachments/assets/f0f13765-52e1-477b-8897-11e8a047249e)
 ![Screenshot from 2025-03-28 20-29-42](https://github.com/user-attachments/assets/48ac4fa4-ae42-4b42-87fe-3580c51587f3)
 ![Screenshot from 2025-03-28 20-29-47](https://github.com/user-attachments/assets/4553e21e-e5f3-4f83-ab51-5a5a7d53155b)
 ![Screenshot from 2025-03-28 20-29-50](https://github.com/user-attachments/assets/00d916ab-4b00-4bd6-adeb-d5ad6ecac890)
 ![Screenshot from 2025-03-28 20-29-53](https://github.com/user-attachments/assets/924a7e7a-89b7-47eb-bc71-47ea6239a089)
 ![Screenshot from 2025-03-28 20-29-59](https://github.com/user-attachments/assets/15106d9b-f54f-40ee-8ad9-7374dac43d3a)
+![Screenshot from 2025-03-28 23-18-08](https://github.com/user-attachments/assets/e5928296-2e94-480c-aee2-4e32a0767e3b)
+
 
 
 ## Installation
