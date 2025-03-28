@@ -3,6 +3,7 @@ from flask import Flask, redirect, render_template, url_for
 from app.config import Config
 from app.models.db import db, init_db
 from app.controllers.auth_controller import auth_bp
+from app.controllers.task_controller import task_bp
 from flask_session import Session  # <-- Add this import
 
 
@@ -28,6 +29,7 @@ def create_app(config_class=Config):
 
     # Register blueprints
     app.register_blueprint(auth_bp)
+    app.register_blueprint(task_bp)
 
     return app
 

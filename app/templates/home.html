@@ -8,7 +8,8 @@
         <h1>Welcome back, {{ user.name or user.username }}!</h1>
         <p>You are logged in as {{ user.email }}</p>
         <div class="auth-actions">
-            <a href="{{ url_for('auth.profile') }}" class="btn btn-dashboard">Go to Profile</a>
+            <a style="padding: 10px; background-color: cadetblue;border-radius: 4px;border: 1px solid black;font-weight: 700;" href="{{ url_for('task.tasks') }}">View Tasks</a>
+            <a  style="padding: 10px; background-color: red;border-radius: 4px;border: 1px solid black;font-weight: 700;" href="{{ url_for('auth.profile') }}" class="btn btn-dashboard">Go to Profile</a>
             <a href="{{ url_for('auth.logout') }}" class="btn btn-logout">Logout</a>
         </div>
     {% else %}
